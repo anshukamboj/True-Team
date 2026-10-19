@@ -60,7 +60,7 @@ require('./models/Employee');
 require('./models/Job');
 require('./models/Candidate');
 
-app.get('*', (req, res) => {
+app.get(/.*/, (req, res) => {
   res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
