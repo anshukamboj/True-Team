@@ -1,0 +1,42 @@
+
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend build files
+frontend/dist/
+frontend/build/
+
+# Backend uploads
+backend/uploads/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache/
+
+# Testing and coverage
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
