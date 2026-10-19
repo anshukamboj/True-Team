@@ -2,8 +2,8 @@ import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import DashboardPreview from './DashboardPreview';
 import LandingSections from './LandingSections';
-import Navbar from './navbar';
-import Footer from './footer';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 
 function Main() {

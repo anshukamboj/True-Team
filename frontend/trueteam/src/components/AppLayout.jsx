@@ -11,7 +11,7 @@ import {
 } from 'lucide-react'
 
 import { useAuth } from '../context/AuthContext'
-import { employeeLinks, hrLinks } from '../navigation'
+import { employeeLinks, hrLinks } from '../Navigation'
 
 
 // Sidebar menu and user information
